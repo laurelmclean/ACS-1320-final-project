@@ -8,7 +8,7 @@ function Title() {
     <div className="Title">
       <header>
         <h1>Canadian Music</h1>
-        <div className="Title-Subtitle">Support local music in Canada!</div>
+        <div className="Title-Subtitle">Support live music in Canada</div>
 
         <div>
           <NavLink 

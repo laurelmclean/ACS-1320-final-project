@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router'
-import data from '../../band-data.js'
+import data from '../../venue-data.js'
 import './VenueDetails.css'
 
 function VenueDetails(props) {

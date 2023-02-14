@@ -1,7 +1,7 @@
 import React from 'react';
 import AllVenues from '../AllVenues/AllVenues';
 import './VenueList.css';
-import data from '../../band-data.js'
+import data from '../../venue-data.js'
 import { useState } from 'react'
 
 function VenueList() {
