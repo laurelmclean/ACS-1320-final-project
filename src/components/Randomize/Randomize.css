@@ -1,0 +1,19 @@
+.RandomSpace {
+    margin: auto;
+    display: block;
+    background: #041c36;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #041c36;
+    border-radius: 20px;
+    padding: 10px 14px;
+    font-size: 14px;  
+}
+
+
+.RandomSpace:hover {
+    background: white;
+    color: #041c36;
+    cursor: pointer;
+}

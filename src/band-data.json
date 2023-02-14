@@ -1,0 +1,113 @@
+[
+  {
+     "title":"I Am The Mountain",
+     "desc":"I Am The Mountain is everywhere, from bars and cafes, to caught-in-your-brain as you try and fall asleep. Beginning as a folk project of singer-songwriter Colton O’Reilly, the late-night campfire soul songs that once whispered between the pines in Kananaskis have echoed through almost every music-friendly space in Calgary. The horn-accented songs of I Am The Mountain are the most pleasant and reliable in a city with a maelstrom of eclectic indie. As the band grew into a full ensemble, the heart-on-sleeve earnestness of their early folk songs have morphed into luxurious still-life songs that bring bodies together with smart drumming and scintillating sparkly guitar work. The floating bass and fluttering horns circle around each other, sinking back like a warm hug from an old friend.",
+     "address":"Calgary, AB",
+     "hours": "Indie Rock",
+     "geo":{
+        "lat":37.7952005,
+        "lon":-122.4027927
+     },
+     "images":[
+        "iatm.jpg"
+     ],
+     "website":"https://iamthemountain.ca/",
+     "features":[
+        "outdoors",
+        "coffee"
+     ]
+  },
+  {
+     "title":"Krill Williams",
+     "desc":"From Treaty 7 Territory, Calgary Alberta, Krill Williams brings dreamy soundscapes layered in soft vocals and harmonies; their reverb soaked guitar melodies are underpinned by a driving rhythm section. Each element of personal inspiration from Krill’s five members contribute to their ever evolving sound.",
+     "address":"Calgary, AB",
+     "hours": "Indie Pop",
+     "geo":{
+        "lat":37.7942109,
+        "lon":-122.4037971
+     },
+     "images":[
+        "krill.jpg"
+     ],
+     "website":"https://krillwilliams.com/",
+     "features":[
+        "outdoors",
+        "art"
+     ]
+  },
+  {
+     "title":"The Velveteins",
+     "desc":"The Velveteins is an indie rock band from Edmonton, Alberta, Canada. The group consists of core songwriting members Spencer Morphy and Addison Hiller.",
+     "address":"Edmonton, AB",
+     "hours": "Psychedelic Rock",
+     "geo":{
+        "lat":37.79408,
+        "lon":-122.3973817
+     },
+     "images":[
+        "velveteins.jpg"
+     ],
+     "website":"http://www.thevelveteins.com/",
+     "features":[
+        "outdoors",
+        "toilet"
+     ]
+  },
+  {
+     "title":"Cartel Madras",
+     "desc":"Cartel Madras is a Canadian hip hop duo from Calgary, Alberta, consisting of sisters Bhagya 'Eboshi' Ramesh and Priya 'Contra' Ramesh. They characterize their music as 'Goonda Rap' and began their career uploading songs to SoundCloud. Cartel Madras released their debut mixtape, Project Goonda Part 1: Trapistan, in 2018. In 2019, they signed to Sub Pop and Royal Mountain Records and their EP, Age of the Goonda, was released on November 1. Their most recent album, The Serpent & The Tiger was released August 19, 2021.",
+     "address":"Calgary, AB",
+     "hours": "Hip Hop",
+     "geo":{
+        "lat":37.7939413,
+        "lon":-122.4002143
+     },
+     "images":[
+        "cartel.jpg"
+     ],
+     "website":"https://cartelmadras.bandcamp.com/",
+     "features":[
+        "outdoors",
+        "toilet",
+        "coffee"
+     ]
+  },
+  {
+     "title":"Luna Li",
+     "desc":"Hannah Bussiere Kim (born October 3, 1996), better known by her stage name Luna Li, is a Korean-Canadian Toronto-based singer, songwriter, multi-instrumentalist, and producer. During the early months of the COVID-19 pandemic, Kim rose to prominence after a series of videos of her home-performed multi-instrumental jam sessions, featuring her playing the harp, keyboard, guitar, and violin, became viral on social media. Kim began writing music as Veins (stylized all uppercase), and released the record Moon Garden in 2015. As Luna Li, she self-released her debut extended play Opal Angel in 2017. After signing to AWAL Recordings and In Real Life, she released the jams extended play, a compilation of the viral jam sessions she composed during the pandemic, in 2021. Her debut record as Luna Li, Duality, was released on AWAL (Canada) and In Real Life (in the rest of the world) in 2022.",
+     "address":"Toronto, ON",
+     "hours": "Dream Pop",
+     "geo":{
+        "lat":37.7936454,
+        "lon":-122.4014547
+     },
+     "images":[
+        "luna.jpg"
+     ],
+     "opens":"10am",
+     "closes":"5pm",
+     "website":"https://www.lunali.ca/",
+     "features":[
+        "outdoors"
+     ]
+  },
+  {
+     "title":"Peach Pit",
+     "desc":"Peach Pit is an indie pop band from Vancouver, British Columbia, Canada. The band consists of singer and rhythm guitarist Neil Smith, lead guitarist Christopher Vanderkooy, bassist Peter Wilton, and drummer Mikey Pascuzzi. Lately they have been joined by multi-instrumentalist Dougal Bain McLean on synth, guitar, and fiddle. They describe their own music as chewed bubblegum pop, whereas critics have described their sound as sad pop, and surf rock and is characterized by a soft spoken vocal style and guitar-driven rock melodies. The band's music videos are produced by videographer Lester Lyons-Hookham. The band sported the same clothes for every live performance during their 'Being So Normal' album phase after buying them for their first music video shoot.",
+     "address":"Vancouver, BC",
+     "hours": "Indie Pop",
+     "geo":{
+        "lat":37.7936648,
+        "lon":-122.3964805
+     },
+     "images":[
+        "peachpit.jpg"
+     ],
+     "website":"https://www.peachpitmusic.com/",
+     "features":[
+        "outdoors",
+        "art",
+        "coffee"
+     ]
+  }
+]
