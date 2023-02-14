@@ -1,0 +1,59 @@
+.VenueList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2em;
+	max-width: 1200px;
+	margin: auto;
+	padding: 2em;
+}
+
+/* Smaller screens and tablets */
+/* number of columns is changed to two equal columns when the screen is 960px or smaller. */
+@media only screen and (max-width: 960px) {
+	.VenueList {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 700px) {
+	.VenueList {
+		grid-template-columns: 1fr;
+	}
+}
+
+.VenueSearch form {
+	display: flex;
+	align-items: center;
+	margin: 0em 10em;
+}
+
+.VenueSearch form input, .VenueSearch form button {
+	padding: 14px;
+	margin: 0;
+	border: 1px solid;
+	border-color: #041c36;
+	font-size: 1rem;
+}
+
+.VenueSearch form input {
+	flex: 1;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.VenueSearch form button {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background: #041c36;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #041c36;
+}
+
+.VenueSearch form button:hover {
+    background: white;
+    color: #041c36;
+    cursor: pointer;
+}

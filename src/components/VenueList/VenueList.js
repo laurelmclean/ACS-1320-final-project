@@ -1,46 +1,44 @@
 import React from 'react';
-import POPOSSpace from '../POPOSSpace/POPOSSpace';
-import './POPOSList.css';
+import AllVenues from '../AllVenues/AllVenues';
+import './VenueList.css';
 import data from '../../band-data.js'
 import { useState } from 'react'
 
-function POPOSList() {
+function VenueList() {
   const [ query, setQuery ] = useState('')
   const spaces = data.filter((obj) => {
 	// true if query is in title
 	const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
-	// true if query is in address
-	const inAddress = obj.address.toLowerCase().includes(query.toLowerCase())
 	// return true if either is true
-    return inTitle || inAddress
-  }).map(({ title, address, images, hours, id }) => {
+    return inTitle
+  }).map(({ title, hometown, images, genre, id }) => {
   return (
-    <POPOSSpace
+    <AllVenues
       id={id}
       key={`${title}-${id}`} 
       name={title}
-      address={address}
+      hometown={hometown}
       image={images[0]}
-      hours={hours}
+      genre={genre}
     />
   )
 })
 
   return (
-    <div className="POPOSSearch">
+    <div className="VenueSearch">
       <form>
         <input
           value={query}
-          placeholder="search"
+          placeholder="search venues"
           onChange={(evt) => setQuery(evt.target.value)}
         />
         <button type="submit">Submit</button>
       </form>
-      <div className="POPOSList">
+      <div className="VenueList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>
     </div>
   )
 }
 
-export default POPOSList
+export default VenueList

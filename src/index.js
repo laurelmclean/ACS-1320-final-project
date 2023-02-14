@@ -3,9 +3,10 @@ import React from 'react';
 import { createRoot } from 'react-dom/client'
 import './index.css';
 import App from './components/App';
-import POPOSList from './components//POPOSList/POPOSList';
-import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import BandList from './components/BandList/BandList';
+import BandDetails from './components/BandDetails/BandDetails';
 import About from './components/About/About';
+import VenueList from './components/VenueList/VenueList'
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,9 +18,10 @@ root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="/" element={<POPOSList />} />
+        <Route path="/" element={<BandList />} />
+        <Route path="venues" element={<VenueList />} />
         <Route path="about" element={<About />} />
-        <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/details/:id" element={<BandDetails />} />
       </Route>
     </Routes>
   </Router>,

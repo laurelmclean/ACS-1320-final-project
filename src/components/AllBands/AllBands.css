@@ -1,0 +1,46 @@
+.AllBands {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  }
+
+.AllBands .AllBands-title {
+  text-decoration: none;
+  color: #000;
+}
+
+.AllBands h1 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  font-weight: lighter;
+  background-color: #1d3b0e7d;
+  padding: 1rem;
+  text-align: left;
+}
+
+.AllBands .AllBands-info {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: right;
+}
+
+.AllBands .AllBands-info div {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.AllBands img {
+  width: 100%;
+  height: 300px;
+}
+
+.AllBands a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

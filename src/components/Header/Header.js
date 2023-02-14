@@ -8,12 +8,15 @@ function Title() {
     <div className="Title">
       <header>
         <h1>Canadian Music</h1>
-        <div className="Title-Subtitle">Check out some of the best bands in Canada!</div>
+        <div className="Title-Subtitle">Support local music in Canada!</div>
 
         <div>
           <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/">Browse</NavLink>
+            to="/">Browse Bands</NavLink>
+          <NavLink 
+            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+            to="/venues">Browse Venues</NavLink>
           <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
             to="/about">About</NavLink>

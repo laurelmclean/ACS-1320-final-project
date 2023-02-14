@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './POPOSSpace.css';
+import './AllBands.css';
 
-function POPOSSpace(props) {
-  const { name, image, address, hours, id } = props
+function AllBands(props) {
+  const { name, image, hometown, genre, id } = props
   return (
-    <div className="POPOSSpace">
-      <Link className="POPOSSpace-title" to={`/details/${id}`}>
+    <div className="AllBands">
+      <Link className="AllBands-title" to={`/details/${id}`}>
         <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
       </Link>
       <h1>
@@ -14,12 +14,12 @@ function POPOSSpace(props) {
             {name}
         </Link>
       </h1>
-     <div className="POPOSSpace-info">
-				<div >{address}</div>
-				<div>{hours}</div>
+     <div className="AllBands-info">
+				<div >{hometown}</div>
+				<div>{genre}</div>
 			</div>
      </div>
   )
 }
 
-export default POPOSSpace
+export default AllBands;

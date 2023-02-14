@@ -1,0 +1,30 @@
+.BandDetails {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 960px;
+	margin: auto;
+}
+
+.BandDetails .BandDetails-info {
+	flex: 1;
+	text-align: left;
+	padding: 0 1em;
+}
+
+.BandDetails .BandDetails-title {
+	font-size: 2em;
+	margin: 0;
+}
+
+.BandDetails .BandDetails-image {
+	flex: 2;
+}
+
+.BandDetails .BandDetails-image img {
+	width: 100%;
+    padding-bottom: 40px;
+}
+
+.BandDetails .BandDetails-hours {
+	font-size: 1.5em;
+}

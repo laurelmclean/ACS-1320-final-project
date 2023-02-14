@@ -1,6 +1,6 @@
 # ACS 1320 - Final Project
 
-A tutorial creating a React app of POPOS spaces in San Francisco, which provided an introduction to fundamental React concepts and creates a demo website using dynamic content.
+Final project.
 
 ## Run Locally
 
