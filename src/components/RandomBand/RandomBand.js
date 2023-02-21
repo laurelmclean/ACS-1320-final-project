@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom'
-import './Randomize.css';
+import './RandomBand.css';
 import data from '../../band-data.json'
 
-function RandomSpace() {
+function RandomBand () {
 	const navigate = useNavigate()
   return (
 		<button 
-    className="RandomSpace"
+    className="RandomBand"
     onClick={(e) => {
 			const id = Math.floor(Math.random() * data.length)
 			navigate(`/details/${id}`)
@@ -14,4 +14,4 @@ function RandomSpace() {
   )
 }
 
-export default RandomSpace
+export default RandomBand;

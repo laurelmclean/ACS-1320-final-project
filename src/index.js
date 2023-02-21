@@ -5,6 +5,7 @@ import './index.css';
 import App from './components/App';
 import BandList from './components/BandList/BandList';
 import BandDetails from './components/BandDetails/BandDetails';
+import VenueDetails from './components/VenueDetails/VenueDetails';
 import About from './components/About/About';
 import VenueList from './components/VenueList/VenueList'
 import reportWebVitals from './reportWebVitals';
@@ -22,6 +23,7 @@ root.render(
         <Route path="venues" element={<VenueList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<BandDetails />} />
+        <Route path="/venue-details/:id" element={<VenueDetails />} />
       </Route>
     </Routes>
   </Router>,

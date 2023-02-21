@@ -3,6 +3,7 @@ import AllVenues from '../AllVenues/AllVenues';
 import './VenueList.css';
 import data from '../../venue-data.js'
 import { useState } from 'react'
+import RandomVenue from '../RandomVenue/RandomVenue';
 
 function VenueList() {
   const [ query, setQuery ] = useState('')
@@ -34,6 +35,9 @@ function VenueList() {
         />
         <button type="submit">Submit</button>
       </form>
+      <div>
+        <RandomVenue />
+      </div>
       <div className="VenueList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>

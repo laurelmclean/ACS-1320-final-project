@@ -1,4 +1,4 @@
-.RandomSpace {
+.RandomBand {
     margin: auto;
     display: block;
     background: #041c36;
@@ -12,7 +12,7 @@
 }
 
 
-.RandomSpace:hover {
+.RandomBand:hover {
     background: white;
     color: #041c36;
     cursor: pointer;

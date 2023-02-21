@@ -3,85 +3,76 @@
      "title":"The Starlite Room",
      "desc":"The Starlite Room is a live entertainment venue founded in 2004, open to all genres and walks of life and follows the rich musical history led by previous incarnations in the same building such as the Bronx, the Rev, and Lush. The building was designed by Herbert Magoon and George Heath MacDonald, two of Edmonton’s most prolific architects and was constructed in 1925 by the Salvation Army.",
      "hometown":"Edmonton, AB",
-     "genre": "Indie Rock",
      "images":[
         "starlite.jpg"
      ],
      "website":"https://starliteroom.ca/",
      "features":[
-        "outdoors",
-        "coffee"
+        "food",
+        "drink"
      ]
   },
   {
      "title":"Palomino",
      "desc":"BBQ joint serving slow-smoked meats in a rustic space with a full bar, patio & frequent live music.",
      "hometown":"Calgary, AB",
-     "genre": "Indie Pop",
      "images":[
         "palomino.jpg"
      ],
      "website":"https://thepalomino.ca/",
      "features":[
-        "outdoors",
-        "art"
+        "food",
+        "drink"
      ]
   },
   {
      "title":"The Rickshaw Theatre",
      "desc":"The Rickshaw Theatre, as it is known today, opened its doors in 2009. Realizing the Rickshaw’s potential as an outstanding music venue, Mo Tarmohamed came on board in the summer of 2011 to run the operations and take over the business. From day one, the theatre boasted possibly the best sight-lines of any music venue in the city. Never to rest on their laurels, the venue has continually made upgrades to improve concert-goers’ and performers’ experiences. Major sound and lighting upgrades, cosmetic enhancements and behind the scenes maintenance have continued to keep the theatre running smoothly, looking good, and sounding great.",
      "hometown":"Vancouver, BC",
-     "genre": "Psychedelic Rock",
      "images":[
         "rickshaw.jpg"
      ],
      "website":"https://rickshawtheatre.com/",
      "features":[
-        "outdoors",
-        "toilet"
+        "drink"
      ]
   },
   {
      "title":"The Palace Theatre",
      "desc":"Built during the golden age of movie houses, The Palace Theatre first opened it's doors in 1921. Home to films, vaudeville acts, and orchestra performances, the Palace Theatre was also the site of the first public radio broadcast in Calgary. With it’s elaborate plaster ceilings, elegant exterior and grand marble staircases, the Palace quickly became known as the most beautiful theatre in Canada and was declared a National historic site in 1996.",
      "hometown":"Calgary, AB",
-     "genre": "Hip Hop",
      "images":[
         "palace.jpg"
      ],
      "website":"https://www.thepalacetheatre.ca/",
      "features":[
-        "outdoors",
-        "toilet",
-        "coffee"
+        "drink",
+        "wheelchair"
      ]
   },
   {
-     "title":"Luna Li",
-     "desc":"Hannah Bussiere Kim (born October 3, 1996), better known by her stage name Luna Li, is a Korean-Canadian Toronto-based singer, songwriter, multi-instrumentalist, and producer. During the early months of the COVID-19 pandemic, Kim rose to prominence after a series of videos of her home-performed multi-instrumental jam sessions, featuring her playing the harp, keyboard, guitar, and violin, became viral on social media. Kim began writing music as Veins (stylized all uppercase), and released the record Moon Garden in 2015. As Luna Li, she self-released her debut extended play Opal Angel in 2017. After signing to AWAL Recordings and In Real Life, she released the jams extended play, a compilation of the viral jam sessions she composed during the pandemic, in 2021. Her debut record as Luna Li, Duality, was released on AWAL (Canada) and In Real Life (in the rest of the world) in 2022.",
+     "title":"Massey Hall",
+     "desc":"Massey Hall is internationally famous as Canada's most important venue for concerts and lectures, attracting many of the world's leading celebrities; it has also hosted weddings, movies, boxing matches, beauty contests, religious and political rallies, typing contests and chess tournaments. Massey Hall remains a vital part of Toronto's cultural and entertainment scene.",
      "hometown":"Toronto, ON",
-     "genre": "Dream Pop",
      "images":[
-        "luna.jpg"
+        "massey.jpg"
      ],
-     "website":"https://www.lunali.ca/",
+     "website":"https://masseyhall.mhrth.com/",
      "features":[
-        "outdoors"
+        "drink"
      ]
   },
   {
-     "title":"Peach Pit",
-     "desc":"Peach Pit is an indie pop band from Vancouver, British Columbia, Canada. The band consists of singer and rhythm guitarist Neil Smith, lead guitarist Christopher Vanderkooy, bassist Peter Wilton, and drummer Mikey Pascuzzi. Lately they have been joined by multi-instrumentalist Dougal Bain McLean on synth, guitar, and fiddle. They describe their own music as chewed bubblegum pop, whereas critics have described their sound as sad pop, and surf rock and is characterized by a soft spoken vocal style and guitar-driven rock melodies. The band's music videos are produced by videographer Lester Lyons-Hookham. The band sported the same clothes for every live performance during their 'Being So Normal' album phase after buying them for their first music video shoot.",
+     "title":"Burton Cummings Theatre",
+     "desc":"Originally known as the Walker Theatre, the Burton Cummings Theatre for Performing Arts (‘The Burt’) was constructed in 1906-07. The theatre was built for a new style of professional-level entertainment and brought ballets, operas, and Broadway-style shows to Winnipeg.",
      "hometown":"Vancouver, BC",
-     "genre": "Indie Pop",
      "images":[
-        "peachpit.jpg"
+        "burton.jpg"
      ],
-     "website":"https://www.peachpitmusic.com/",
+     "website":"https://www.burtoncummingstheatre.ca/",
      "features":[
-        "outdoors",
-        "art",
-        "coffee"
+        "drink",
+        "wheelchair"
      ]
   }
 ]

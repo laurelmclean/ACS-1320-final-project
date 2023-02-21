@@ -1,8 +1,9 @@
 import React from 'react';
 import AllBands from '../AllBands/AllBands';
 import './BandList.css';
-import data from '../../band-data.js'
-import { useState } from 'react'
+import data from '../../band-data.js';
+import { useState } from 'react';
+import RandomBand from '../RandomBand/RandomBand';
 
 function BandList() {
   const [ query, setQuery ] = useState('')
@@ -34,6 +35,9 @@ function BandList() {
         />
         <button type="submit">Submit</button>
       </form>
+      <div>
+        <RandomBand />
+      </div>
       <div className="BandList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>

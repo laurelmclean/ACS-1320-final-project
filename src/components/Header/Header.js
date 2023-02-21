@@ -1,14 +1,13 @@
 import React from 'react'
 import './Header.css';
 import { NavLink } from 'react-router-dom'
-import RandomSpace from '../Randomize/Randomize'
 
 function Title() {
   return (
     <div className="Title">
       <header>
-        <h1>Canadian Music</h1>
-        <div className="Title-Subtitle">Support live music in Canada</div>
+        <h1>Discover Music</h1>
+        <div className="Title-Subtitle">Discover Canadian music and venues!</div>
 
         <div>
           <NavLink 
@@ -20,9 +19,6 @@ function Title() {
           <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
             to="/about">About</NavLink>
-        </div>
-        <div>
-          <RandomSpace />
         </div>
 
       </header>

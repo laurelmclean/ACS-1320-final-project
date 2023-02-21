@@ -7,11 +7,7 @@
      "images":[
         "iatm.jpg"
      ],
-     "website":"https://iamthemountain.ca/",
-     "features":[
-        "outdoors",
-        "coffee"
-     ]
+     "website":"https://iamthemountain.ca/"
   },
   {
      "title":"Krill Williams",
@@ -21,11 +17,7 @@
      "images":[
         "krill.jpg"
      ],
-     "website":"https://krillwilliams.com/",
-     "features":[
-        "outdoors",
-        "art"
-     ]
+     "website":"https://krillwilliams.com/"
   },
   {
      "title":"The Velveteins",
@@ -35,11 +27,8 @@
      "images":[
         "velveteins.jpg"
      ],
-     "website":"http://www.thevelveteins.com/",
-     "features":[
-        "outdoors",
-        "toilet"
-     ]
+     "website":"http://www.thevelveteins.com/"
+
   },
   {
      "title":"Cartel Madras",
@@ -49,12 +38,7 @@
      "images":[
         "cartel.jpg"
      ],
-     "website":"https://cartelmadras.bandcamp.com/",
-     "features":[
-        "outdoors",
-        "toilet",
-        "coffee"
-     ]
+     "website":"https://cartelmadras.bandcamp.com/"
   },
   {
      "title":"Luna Li",
@@ -64,10 +48,7 @@
      "images":[
         "luna.jpg"
      ],
-     "website":"https://www.lunali.ca/",
-     "features":[
-        "outdoors"
-     ]
+     "website":"https://www.lunali.ca/"
   },
   {
      "title":"Peach Pit",
@@ -77,11 +58,6 @@
      "images":[
         "peachpit.jpg"
      ],
-     "website":"https://www.peachpitmusic.com/",
-     "features":[
-        "outdoors",
-        "art",
-        "coffee"
-     ]
+     "website":"https://www.peachpitmusic.com/"
   }
 ]
