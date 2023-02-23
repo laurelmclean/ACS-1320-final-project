@@ -1,13 +1,19 @@
 [
   {
      "title":"I Am The Mountain",
-     "desc":"I Am The Mountain is everywhere, from bars and cafes, to caught-in-your-brain as you try and fall asleep. Beginning as a folk project of singer-songwriter Colton O’Reilly, the late-night campfire soul songs that once whispered between the pines in Kananaskis have echoed through almost every music-friendly space in Calgary. The horn-accented songs of I Am The Mountain are the most pleasant and reliable in a city with a maelstrom of eclectic indie. As the band grew into a full ensemble, the heart-on-sleeve earnestness of their early folk songs have morphed into luxurious still-life songs that bring bodies together with smart drumming and scintillating sparkly guitar work. The floating bass and fluttering horns circle around each other, sinking back like a warm hug from an old friend.",
+     "desc":"I Am The Mountain is everywhere, from bars and cafes, to caught-in-your-brain as you try and fall asleep. Beginning as a folk project of singer-songwriter Colton O'Reilly, the late-night campfire soul songs that once whispered between the pines in Kananaskis have echoed through almost every music-friendly space in Calgary.",
      "hometown":"Calgary, AB",
      "genre": "Indie Rock",
      "images":[
         "iatm.jpg"
      ],
-     "website":"https://iamthemountain.ca/"
+     "website":"https://iamthemountain.ca/",
+      "features":[
+        "guitar",
+        "drums",
+        "keyboard",
+        "trumpet"
+     ]
   },
   {
      "title":"Krill Williams",
@@ -17,7 +23,12 @@
      "images":[
         "krill.jpg"
      ],
-     "website":"https://krillwilliams.com/"
+     "website":"https://krillwilliams.com/",
+      "features":[
+        "keyboard",
+        "guitar",
+        "drums"
+     ]
   },
   {
      "title":"The Velveteins",
@@ -27,7 +38,11 @@
      "images":[
         "velveteins.jpg"
      ],
-     "website":"http://www.thevelveteins.com/"
+     "website":"http://www.thevelveteins.com/",
+      "features":[
+        "guitar",
+        "drums"
+     ]
 
   },
   {
@@ -38,7 +53,10 @@
      "images":[
         "cartel.jpg"
      ],
-     "website":"https://cartelmadras.bandcamp.com/"
+     "website":"https://cartelmadras.bandcamp.com/",
+      "features":[
+        "micorphone"
+     ]
   },
   {
      "title":"Luna Li",
@@ -48,16 +66,24 @@
      "images":[
         "luna.jpg"
      ],
-     "website":"https://www.lunali.ca/"
+     "website":"https://www.lunali.ca/",
+      "features":[
+        "harp",
+        "violin"
+     ]
   },
   {
      "title":"Peach Pit",
-     "desc":"Peach Pit is an indie pop band from Vancouver, British Columbia, Canada. The band consists of singer and rhythm guitarist Neil Smith, lead guitarist Christopher Vanderkooy, bassist Peter Wilton, and drummer Mikey Pascuzzi. Lately they have been joined by multi-instrumentalist Dougal Bain McLean on synth, guitar, and fiddle. They describe their own music as chewed bubblegum pop, whereas critics have described their sound as sad pop, and surf rock and is characterized by a soft spoken vocal style and guitar-driven rock melodies. The band's music videos are produced by videographer Lester Lyons-Hookham. The band sported the same clothes for every live performance during their 'Being So Normal' album phase after buying them for their first music video shoot.",
+     "desc":"Peach Pit is an indie pop band from Vancouver, British Columbia, Canada. The band consists of singer and rhythm guitarist Neil Smith, lead guitarist Christopher Vanderkooy, bassist Peter Wilton, and drummer Mikey Pascuzzi. Lately they have been joined by multi-instrumentalist Dougal Bain McLean on synth, guitar, and fiddle. They describe their own music as chewed bubblegum pop, whereas critics have described their sound as sad pop, and surf rock and is characterized by a soft spoken vocal style and guitar-driven rock melodies. The band's music videos are produced by videographer Lester Lyons-Hookham.",
      "hometown":"Vancouver, BC",
      "genre": "Indie Pop",
      "images":[
         "peachpit.jpg"
      ],
-     "website":"https://www.peachpitmusic.com/"
+     "website":"https://www.peachpitmusic.com/",
+      "features":[
+        "guitar",
+        "drums"
+     ]
   }
 ]

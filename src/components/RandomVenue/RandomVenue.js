@@ -10,7 +10,7 @@ function RandomVenue () {
     onClick={(e) => {
 			const id = Math.floor(Math.random() * data.length)
 			navigate(`/venue-details/${id}`)
-		}}>Find a Random Venue!</button>
+		}}>Discover Venue</button>
   )
 }
 

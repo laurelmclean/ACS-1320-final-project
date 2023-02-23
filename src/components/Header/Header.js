@@ -9,7 +9,7 @@ function Title() {
         <h1>Discover Music</h1>
         <div className="Title-Subtitle">Discover Canadian music and venues!</div>
 
-        <div>
+        <div className='nav-section'>
           <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
             to="/">Browse Bands</NavLink>

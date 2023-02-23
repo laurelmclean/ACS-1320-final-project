@@ -1,8 +1,8 @@
 .VenueDetails {
 	display: flex;
-	flex-direction: row-reverse;
 	width: 960px;
 	margin: auto;
+	height: 100vh;
 }
 
 .VenueDetails .VenueDetails-info {
@@ -27,4 +27,14 @@
 
 .VenueDetails .VenueDetails-hours {
 	font-size: 1.5em;
+}
+
+.VenueDetails a {
+    text-decoration: none;
+	color: black;
+}
+
+.VenueDetails  a:hover {
+    text-decoration: underline;
+    color: black;
 }

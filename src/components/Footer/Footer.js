@@ -6,7 +6,8 @@ function Footer() {
   return (
     <div className="Footer">
         {/* stretch challenge - JS object for date */}
-        <p>Laurel McLean - Copyright {dateObj.getFullYear()}</p>
+        <p>Laurel McLean - Webpage Design - Copyright {dateObj.getFullYear()}</p>
+        <p>Images and content sourced from Google</p>
     </div>
   )
 }

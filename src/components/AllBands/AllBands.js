@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './AllBands.css';
 
 function AllBands(props) {
-  const { name, image, hometown, genre, id } = props
+  const { name, image, genre, id } = props
   return (
     <div className="AllBands">
       <Link className="AllBands-title" to={`/details/${id}`}>
@@ -15,7 +15,6 @@ function AllBands(props) {
         </Link>
       </h1>
      <div className="AllBands-info">
-				<div >{hometown}</div>
 				<div>{genre}</div>
 			</div>
      </div>

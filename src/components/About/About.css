@@ -1,23 +1,28 @@
-.About {
+.About-1 {
+	display: flex;
+	width: 960px;
+	margin: auto;
+}
+
+.About-info {
+	flex: 1;
+	text-align: left;
+	padding: 0em 1em;
+}
+
+.About-title {
+	font-size: 2em;
+	margin: 0;
+}
+
+.About-image {
+	padding-bottom: 40px;
+}
+
+.About-2 {
 	display: flex;
 	flex-direction: row-reverse;
 	width: 960px;
 	margin: auto;
 }
-
-.About .About-info {
-	flex: 1;
-	text-align: left;
-	padding: 0 1em;
-}
-
-.About .About-title {
-	font-size: 2em;
-	margin: 0;
-}
-
-.About .About-image {
-	padding-bottom: 40px;
-}
-
 

@@ -10,7 +10,7 @@ function RandomBand () {
     onClick={(e) => {
 			const id = Math.floor(Math.random() * data.length)
 			navigate(`/details/${id}`)
-		}}>Find a Random Band!</button>
+		}}>Discover Band</button>
   )
 }
 

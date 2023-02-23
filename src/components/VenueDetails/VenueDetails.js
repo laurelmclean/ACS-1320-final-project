@@ -2,12 +2,12 @@ import React from 'react';
 import { useParams } from 'react-router';
 import data from '../../venue-data.js';
 import './VenueDetails.css';
-import VenueFeatureList from '../VenueFeature/VenueFeatureList';
+import FeatureList from '../Feature/FeatureList';
 
 function VenueDetails(props) {
   const params = useParams()
   const { id } = params // Location index
-  const { images, title, desc, hometown, features } = data[id]
+  const { images, title, desc, hometown, features, website } = data[id]
   
   return (
     <div className="VenueDetails">
@@ -16,9 +16,12 @@ function VenueDetails(props) {
       </div>
       <div className="VenueDetails-info">
         <h1 className="VenueDetails-title">{ title }</h1>
+        <FeatureList features={features}/>
         <p className="VenueDetails-hours">{ hometown }</p>
         <p className="VenueDetails-desc">{ desc }</p>
-        <VenueFeatureList features={features}/>
+        <a href={ website } target="_blank" rel="noopener noreferrer">
+          <p className="VenueDetails-hours">🌐 Visit Website! </p>
+        </a>
       </div>
     </div>
   )

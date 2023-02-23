@@ -4,29 +4,36 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  padding: 1em;
+  padding: 0em;
   margin-bottom: 2em;
-  background-color: #1d3b0e;
-  color: #fff;
+  color: #041c36;
+  background-image: url("https://watermark.lovepik.com/photo/20211203/large/lovepik-record-collection-picture_501486928.jpg");
 }
 
 .Title-Subtitle {
-  color: rgba(255, 255, 255, 0.75);
+  color:#041c36;
 }
 
 .Title a {
   display: inline-block;
   padding: 0.5em 1em;
-  color: rgba(255, 255, 255, 0.835);
+  color: #041c36;
   font-weight: bold;
   text-decoration: none;
 }
 
 .Title .nav-link-active {
-  color: #fff;
+  color: #041c36;
   border-bottom: 2px solid;
 }
 
 .nav-link {
   margin: 12px;
+}
+
+.Title .nav-section {
+    background-color: #FFECD1;
+      margin: 4rem -9999rem 0rem;
+  /* add back negative margin value */
+    padding: 0.25rem 9999rem;
 }

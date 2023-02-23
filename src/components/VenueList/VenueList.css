@@ -24,8 +24,9 @@
 
 .VenueSearch form {
 	display: flex;
-	align-items: center;
-	margin: 0em 10em;
+	margin: auto;
+	margin-bottom: 2em;
+	width: 30em;
 }
 
 .VenueSearch form input, .VenueSearch form button {

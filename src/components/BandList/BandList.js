@@ -35,9 +35,7 @@ function BandList() {
         />
         <button type="submit">Submit</button>
       </form>
-      <div>
         <RandomBand />
-      </div>
       <div className="BandList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>
