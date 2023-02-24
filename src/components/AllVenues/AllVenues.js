@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './AllVenues.css';
 
 function AllVenues(props) {
-  const { name, image, hometown, id } = props
+  const { name, image, city, id } = props
   return (
     <div className="AllVenues">
       <Link className="AllVenues-title" to={`/venue-details/${id}`}>
@@ -15,7 +15,7 @@ function AllVenues(props) {
         </Link>
       </h1>
      <div className="AllVenues-info">
-				<div >{hometown}</div>
+				<div >{city}</div>
 			</div>
      </div>
   )

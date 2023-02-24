@@ -27,15 +27,17 @@ function BandList() {
 
   return (
     <div className="BandSearch">
-      <form>
-        <input
-          value={query}
-          placeholder="search bands"
-          onChange={(evt) => setQuery(evt.target.value)}
-        />
-        <button type="submit">Submit</button>
-      </form>
-        <RandomBand />
+      <div className='BandButtons'>
+        <form>
+          <input
+            value={query}
+            placeholder="search bands"
+            onChange={(evt) => setQuery(evt.target.value)}
+          />
+          <button type="submit">Submit</button>
+        </form>
+          <RandomBand />
+      </div>
       <div className="BandList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>

@@ -3,6 +3,7 @@
 	width: 960px;
 	margin: auto;
 	height: 100vh;
+	color: #041c36;
 }
 
 .BandDetails .BandDetails-info {
@@ -31,10 +32,10 @@
 
 .BandDetails a {
     text-decoration: none;
-	color: black;
+	color: #041c36;
 }
 
 .BandDetails a:hover {
     text-decoration: underline;
-    color: black;
+    color: #041c36;
 }

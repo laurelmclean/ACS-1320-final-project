@@ -19,7 +19,7 @@ function getFeature(str) {
 			return '🎹'
 		case 'violin':
 			return '🎻'
-		case 'micorphone':
+		case 'microphone':
 			return '🎤 '
 		case 'drums':
 			return '🥁 '

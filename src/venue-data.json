@@ -2,7 +2,7 @@
   {
      "title":"The Starlite Room",
      "desc":"The Starlite Room is a live entertainment venue founded in 2004, open to all genres and walks of life and follows the rich musical history led by previous incarnations in the same building such as the Bronx, the Rev, and Lush. The building was designed by Herbert Magoon and George Heath MacDonald, two of Edmonton’s most prolific architects and was constructed in 1925 by the Salvation Army.",
-     "hometown":"Edmonton, AB",
+     "city":"Edmonton, AB",
      "images":[
         "starlite.jpg"
      ],
@@ -15,7 +15,7 @@
   {
      "title":"Palomino",
      "desc":"BBQ joint serving slow-smoked meats in a rustic space with a full bar, patio & frequent live music.",
-     "hometown":"Calgary, AB",
+     "city":"Calgary, AB",
      "images":[
         "palomino.jpg"
      ],
@@ -28,7 +28,7 @@
   {
      "title":"The Rickshaw Theatre",
      "desc":"The Rickshaw Theatre, as it is known today, opened its doors in 2009. Realizing the Rickshaw’s potential as an outstanding music venue, Mo Tarmohamed came on board in the summer of 2011 to run the operations and take over the business. From day one, the theatre boasted possibly the best sight-lines of any music venue in the city. Never to rest on their laurels, the venue has continually made upgrades to improve concert-goers’ and performers’ experiences.",
-     "hometown":"Vancouver, BC",
+     "city":"Vancouver, BC",
      "images":[
         "rickshaw.jpg"
      ],
@@ -40,7 +40,7 @@
   {
      "title":"The Palace Theatre",
      "desc":"Built during the golden age of movie houses, The Palace Theatre first opened it's doors in 1921. Home to films, vaudeville acts, and orchestra performances, the Palace Theatre was also the site of the first public radio broadcast in Calgary. With it’s elaborate plaster ceilings, elegant exterior and grand marble staircases, the Palace quickly became known as the most beautiful theatre in Canada and was declared a National historic site in 1996.",
-     "hometown":"Calgary, AB",
+     "city":"Calgary, AB",
      "images":[
         "palace.jpg"
      ],
@@ -53,7 +53,7 @@
   {
      "title":"Massey Hall",
      "desc":"Massey Hall is internationally famous as Canada's most important venue for concerts and lectures, attracting many of the world's leading celebrities; it has also hosted weddings, movies, boxing matches, beauty contests, religious and political rallies, typing contests and chess tournaments. Massey Hall remains a vital part of Toronto's cultural and entertainment scene.",
-     "hometown":"Toronto, ON",
+     "city":"Toronto, ON",
      "images":[
         "massey.jpg"
      ],
@@ -65,7 +65,7 @@
   {
      "title":"Burton Cummings Theatre",
      "desc":"Originally known as the Walker Theatre, the Burton Cummings Theatre for Performing Arts (‘The Burt’) was constructed in 1906-07. The theatre was built for a new style of professional-level entertainment and brought ballets, operas, and Broadway-style shows to Winnipeg.",
-     "hometown":"Vancouver, BC",
+     "city":"Vancouver, BC",
      "images":[
         "burton.jpg"
      ],

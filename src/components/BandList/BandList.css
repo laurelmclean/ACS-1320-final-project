@@ -5,6 +5,8 @@
 	max-width: 1200px;
 	margin: auto;
 	padding: 2em;
+	font-size: 20px;
+	color: #041c36;
 }
 
 /* Smaller screens and tablets */
@@ -21,12 +23,15 @@
 		grid-template-columns: 1fr;
 	}
 }
-
+.BandButtons {
+	display: flex;
+	justify-content: center;
+}
 .BandSearch form {
 	display: flex;
-	margin: auto;
-	margin-bottom: 2em;
+	margin-right: 10px;
 	width: 30em;
+	padding: 0;
 }
 
 .BandSearch form input, .BandSearch form button {

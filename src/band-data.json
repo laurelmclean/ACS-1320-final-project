@@ -55,12 +55,12 @@
      ],
      "website":"https://cartelmadras.bandcamp.com/",
       "features":[
-        "micorphone"
+        "microphone"
      ]
   },
   {
      "title":"Luna Li",
-     "desc":"Hannah Bussiere Kim (born October 3, 1996), better known by her stage name Luna Li, is a Korean-Canadian Toronto-based singer, songwriter, multi-instrumentalist, and producer. During the early months of the COVID-19 pandemic, Kim rose to prominence after a series of videos of her home-performed multi-instrumental jam sessions, featuring her playing the harp, keyboard, guitar, and violin, became viral on social media. Kim began writing music as Veins (stylized all uppercase), and released the record Moon Garden in 2015. As Luna Li, she self-released her debut extended play Opal Angel in 2017. After signing to AWAL Recordings and In Real Life, she released the jams extended play, a compilation of the viral jam sessions she composed during the pandemic, in 2021. Her debut record as Luna Li, Duality, was released on AWAL (Canada) and In Real Life (in the rest of the world) in 2022.",
+     "desc":"Hannah Bussiere Kim (born October 3, 1996), better known by her stage name Luna Li, is a Korean-Canadian Toronto-based singer, songwriter, multi-instrumentalist, and producer. During the early months of the COVID-19 pandemic, Kim rose to prominence after a series of videos of her home-performed multi-instrumental jam sessions, featuring her playing the harp, keyboard, guitar, and violin, became viral on social media. Kim began writing music as Veins (stylized all uppercase), and released the record Moon Garden in 2015. As Luna Li, she self-released her debut extended play Opal Angel in 2017. After signing to AWAL Recordings and In Real Life, she released the jams extended play, a compilation of the viral jam sessions she composed during the pandemic, in 2021.",
      "hometown":"Toronto, ON",
      "genre": "Dream Pop",
      "images":[
@@ -84,6 +84,47 @@
       "features":[
         "guitar",
         "drums"
+     ]
+  },
+  {
+     "title":"Charlotte Cardin",
+     "desc":"Charlotte Cardin (born November 9, 1994) is a Canadian pop, electro and jazz singer and songwriter from Montreal, Quebec. Cardin began her career as a model at the age of 15, where she appeared in numerous advertising campaigns such as Barilà.",
+     "hometown":"Montreal, QC",
+     "genre": "Pop",
+     "images":[
+        "charlotte.jpg"
+     ],
+     "website":"https://www.charlottecardin.com/",
+      "features":[
+        "microphone",
+        "keyboard"
+     ]
+  },
+  {
+     "title":"Tim Baker",
+     "desc":"Tim Baker is a Canadian singer-songwriter from St. John's, Newfoundland and Labrador. The longtime lead singer of the indie rock band Hey Rosetta!, his debut solo album Forever Overhead was released on April 19, 2019, on Arts & Crafts.",
+     "hometown":"St Johns, NFL",
+     "genre": "Indie Rock",
+     "images":[
+        "tim.jpg"
+     ],
+     "website":"https://timbaker.net/",
+      "features":[
+        "guitar",
+        "keyboard"
+     ]
+  },
+  {
+     "title":"The Halluci Nation",
+     "desc":"The Halluci Nation, formerly known as A Tribe Called Red, is a Canadian electronic music group who blend instrumental hip hop, reggae, moombahton and dubstep-influenced dance music with elements of First Nations music, particularly vocal chanting and drumming.",
+     "hometown":"Ottawa, ON",
+     "genre": "Electronic",
+     "images":[
+        "halluci.jpg"
+     ],
+     "website":"https://thehallucination.com/",
+      "features":[
+        "microphone"
      ]
   }
 ]

@@ -6,7 +6,7 @@
 
 .AllBands .AllBands-title {
   text-decoration: none;
-  color: #000;
+  color: #041c36;
 }
 
 .AllBands h1 {
@@ -16,9 +16,10 @@
   top: 0;
   margin: 0;
   font-weight: lighter;
-  background-color: #041c3676;
-  padding: 1rem;
-  text-align: left;
+  padding: 15px;
+  text-align: right;
+  font-size: 30px;
+  text-shadow:1px 1px 5px #041c36, 1px 1px 5px #041c36;
 }
 
 .AllBands .AllBands-info {

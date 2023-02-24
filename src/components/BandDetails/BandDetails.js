@@ -4,7 +4,7 @@ import data from '../../band-data.js'
 import './BandDetails.css'
 import FeatureList from '../Feature/FeatureList';
 
-function BandDetails(props) {
+function BandDetails() {
   const params = useParams()
   const { id } = params // Location index
   const { images, title, desc, genre, hometown, features, website } = data[id]

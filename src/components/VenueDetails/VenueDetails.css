@@ -3,6 +3,7 @@
 	width: 960px;
 	margin: auto;
 	height: 100vh;
+	color: #041c36;
 }
 
 .VenueDetails .VenueDetails-info {
@@ -31,10 +32,10 @@
 
 .VenueDetails a {
     text-decoration: none;
-	color: black;
+	color: #041c36;
 }
 
 .VenueDetails  a:hover {
     text-decoration: underline;
-    color: black;
+    color: #041c36;
 }

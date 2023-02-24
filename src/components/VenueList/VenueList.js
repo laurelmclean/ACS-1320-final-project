@@ -12,21 +12,21 @@ function VenueList() {
 	const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
 	// return true if either is true
     return inTitle
-  }).map(({ title, hometown, images, genre, id }) => {
+  }).map(({ title, city, images, id }) => {
   return (
     <AllVenues
       id={id}
       key={`${title}-${id}`} 
       name={title}
-      hometown={hometown}
+      city={city}
       image={images[0]}
-      genre={genre}
     />
   )
 })
 
   return (
     <div className="VenueSearch">
+      <div className="VenueButtons">
       <form>
         <input
           value={query}
@@ -37,6 +37,7 @@ function VenueList() {
       </form>
       <div>
         <RandomVenue />
+      </div>
       </div>
       <div className="VenueList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
