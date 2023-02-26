@@ -7,7 +7,7 @@ import RandomVenue from '../RandomVenue/RandomVenue';
 
 function VenueList() {
   const [ query, setQuery ] = useState('')
-  const spaces = data.filter((obj) => {
+  const venues = data.filter((obj) => {
 	// true if query is in title
 	const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
 	// return true if either is true
@@ -40,7 +40,7 @@ function VenueList() {
       </div>
       </div>
       <div className="VenueList">
-        { spaces.length > 0 ? spaces : "No results match your search" } 
+        { venues.length > 0 ? venues : "No results match your search" } 
       </div>
     </div>
   )

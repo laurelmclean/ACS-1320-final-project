@@ -7,7 +7,7 @@ import RandomBand from '../RandomBand/RandomBand';
 
 function BandList() {
   const [ query, setQuery ] = useState('')
-  const spaces = data.filter((obj) => {
+  const bands = data.filter((obj) => {
 	// true if query is in title
 	const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
 	// return true if either is true
@@ -39,7 +39,7 @@ function BandList() {
           <RandomBand />
       </div>
       <div className="BandList">
-        { spaces.length > 0 ? spaces : "No results match your search" } 
+        { bands.length > 0 ? bands : "No results match your search" } 
       </div>
     </div>
   )
