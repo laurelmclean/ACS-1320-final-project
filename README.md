@@ -1,5 +1,7 @@
 # ACS 1320 - Final Project: Discover Music
 
+Github Pages: https://laurelmclean.github.io/ACS-1320-final-project/
+
 A Final Project for ACS 1320 creating a React app, Discover Music, to promote Canadian musicians and music venues. The app allows users to search for bands and venues, view details, and discover new music with the randomize button.
 
 The project was built with React, utilizing components and state.
