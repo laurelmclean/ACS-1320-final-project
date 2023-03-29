@@ -1,7 +1,9 @@
-import React from 'react'
-import './Feature.css'
+import React from 'react';
+import './Feature.css';
 
 function getFeature(str) {
+	// switch statement translates word into emoji
+	//and displays in band details
 	switch(str) {
 		case 'drink':
 			return '🥃 '
@@ -26,11 +28,11 @@ function getFeature(str) {
 		default:
 			return '？'
 	}
-}
+};
 
 function Feature(props) {
 	const emoji = getFeature(props.name)
-	return <div className="Feature">{emoji}</div>
-}
+	return <div className='Feature'>{emoji}</div>
+};
 
 export default Feature;

@@ -1,24 +1,26 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './AllVenues.css';
 
 function AllVenues(props) {
-  const { name, image, city, id } = props
+
+  const { name, image, city, id } = props;
+
   return (
-    <div className="AllVenues">
-      <Link className="AllVenues-title" to={`/venue-details/${id}`}>
-        <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
+    <div className='AllVenues'>
+      <Link className='AllVenues-title' to={`/venue-details/${id}`}>
+        <img src={`${process.env.PUBLIC_URL}/images/${image}`} width='300' height='300' alt='Hello' />
       </Link>
       <h1>
         <Link to={`/venue-details/${id}`}>
-            {name}
+          {name}
         </Link>
       </h1>
-     <div className="AllVenues-info">
-				<div >{city}</div>
-			</div>
-     </div>
+      <div className='AllVenues-info'>
+        <div >{city}</div>
+      </div>
+    </div>
   )
-}
+};
 
 export default AllVenues;

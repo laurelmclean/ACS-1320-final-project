@@ -1,11 +1,11 @@
-import React from 'react'
-import './About.css'
+import React from 'react';
+import './About.css';
 
 function About() {
   return (
     <>
       <div className='About-1'>
-        <div className="About-info">
+        <div className='About-info'>
           <h1 className='About-title'>About</h1>
           <p className='About-desc'>Welcome to Discover Music, a website promoting Canadian musicians and music venues!</p>
           <p className='About-desc'>Our mission is to showcase the talented musicians and vibrant music scene that Canada has to offer. We are passionate about promoting local artists and music venues across the country, and we believe that by doing so, we can help create a stronger music community in Canada.</p>
@@ -13,13 +13,13 @@ function About() {
         </div>
       </div>
       <div className='About-2'>
-        <div className="About-image">
+        <div className='About-image'>
           <img src={`${process.env.PUBLIC_URL}/images/palomino.jpg`}
-            width="450px"
-            alt="Palomino"
+            width='450px'
+            alt='Palomino'
           />
         </div>
-        <div className="About-info">
+        <div className='About-info'>
           <p className='About-desc'>
             We strive to provide a platform for emerging artists and music venues, as well as established musicians, to connect with audiences and gain exposure.
 
